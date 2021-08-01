@@ -1,0 +1,362 @@
+{% load static %}
+
+<!--<li><a  href="/login1">BOOKING USER LOGIN</a></li> <br>
+<li><a  href="/login2">DISPATCH LOGIN</a></li> <br>
+<li><a  href="/login3">MIS LOGIN</a></li>
+<li><a  href="/login4">ADMIN LOGIN</a></li> <br>-->
+<!--<link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+
+    />
+    
+<div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/1600x800/?welcome,logistics,transport" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-none d-md-block ">
+        <div class="d-grid gap-2 my-5">
+            <a href="/adminlogin"><button class="btn btn-primary  " style="margin-left:auto;margin-right:auto;display:block;margin-top:2%"   type="button" href="/adminlogin" >ADMIN LOGIN</button></a>
+            <a href="/dispatchlogin"><button class="btn btn-primary" style="margin-left:auto;margin-right:auto;display:block;margin-top:2%"   type="button" href="/dispatchlogin">DISPATCH LOGIN</button></a>
+            <a href="/mislogin"><button class="btn btn-primary" style="margin-left:auto;margin-right:auto;display:block;margin-top:2%"   type="button" href="/mislogin">MIS LOGIN</button></a>
+            <a href="/bookinglogin"><button class="btn btn-primary" style="margin-left:auto;margin-right:auto;display:block;margin-top:2%"   type="button" href="/bookinglogin">BOOKING USER LOGIN</button></a>
+        </div>
+
+      </div>
+    </div>-->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style/prelogin.css">
+    <style>
+      
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+header{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px ,10%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24242A;
+}
+
+.navbar{
+  background-color: #24242A;
+  border-radius: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar li{
+  float:left;
+  list-style: none; 
+  margin: 13px 20px;
+}
+.navbar ul{
+  overflow: auto;
+}
+
+.navbar li a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+  
+  transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+
+
+
+.navbar li a:hover{
+          color: #0096FF;
+      }
+
+
+
+
+.logo{
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+
+  .login li{
+      
+      float:left;
+      list-style: none; 
+      margin: 13px 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .login ul{
+      overflow: auto;
+  }
+  
+  .login li a{
+      padding: 3px 3px;
+      text-decoration: none;
+      color: white;
+      
+      transition: all 0.3s ease 0s;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .login li a:hover{
+              color: #0096FF;
+              font-family: Verdana, Geneva, Tahoma, sans-serif
+          }
+  
+.line{
+
+  color:#0096FF ;
+}
+
+.fix{
+
+  
+      
+      
+      /* display: block; */
+    
+      
+      overflow: hidden;
+    
+}
+
+.text1{
+
+  position: absolute;
+  color: #AACCFF;
+  top: 150px;
+  left: 100px;
+  padding-right: 500px;
+  
+  
+  text-decoration: none;
+  border: palegoldenrod 2px solid;
+  border-radius: 20px;
+  
+
+}
+
+.text1 li{
+
+  text-decoration: none;
+
+  padding: 50px;
+}
+.text1 ul{
+
+text-decoration: none;
+
+}
+
+.img2 {
+
+  position: absolute;
+  top: 160px;
+  left: 665px;
+ 
+  
+}
+
+button {
+
+      position: absolute;
+      
+      
+      
+      border: none;
+      
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      
+      font-size: 16px;
+      /* margin: 4px 2px; */
+      transition-duration: 0.4s;
+      cursor: pointer;
+    
+}
+
+.button1 {
+  top: 140px;
+  left: 300px;
+  background-color: #002D62; 
+  color: #AACCFF; 
+  border: 2px solid palegoldenrod;
+}
+
+.button1:hover {
+  background-color:#0952a5;
+  color: white;
+}
+
+
+.join{
+
+position: absolute;
+top: 150px;
+left: 40%;
+
+}
+
+
+.button1 {
+  top: 300px;
+  left: 100px;
+  background-color: #002D62; 
+  color: #AACCFF; 
+  border: 2px solid palegoldenrod;
+}
+
+.button1:hover {
+  background-color:#0952a5;
+  color: white;
+}
+
+.button2 {
+  top: 300px;
+  left: 400px;
+  background-color: #002D62; 
+  color: #AACCFF; 
+  border: 2px solid palegoldenrod;
+}
+
+.button2:hover {
+  background-color:#0952a5;
+  color: white;
+}
+
+
+.button3 {
+  top: 300px;
+  left: 700px;
+  background-color: #002D62; 
+  color: #AACCFF; 
+  border: 2px solid palegoldenrod;
+}
+
+.button3:hover {
+  background-color:#0952a5;
+  color: white;
+}
+
+.button4 {
+  top: 300px;
+  left: 1000px;
+  background-color: #002D62; 
+  color: #AACCFF; 
+  border: 2px solid palegoldenrod;
+}
+
+.button4:hover {
+  background-color:#0952a5;
+  color: white;
+}
+
+.box4 {
+
+
+  border: palegoldenrod 2px solid;
+  border-radius: 20px;
+
+
+}
+    </style>
+</head>
+<body>
+    <header>
+      <img src={% static "logo23.jpg" %} alt="logo" height="50px" width="50px" >
+       <!--<img class= "logo" src="logo23.jpg" alt="logo" height="50px" width="50px" > -->
+        <nav class="navbar">
+            
+            <ul>
+                
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact us</a></li>
+                
+               
+            </ul>
+        </nav>
+        <div class="login">
+
+
+            <ul>
+
+                
+                <li><a href="/prelogin">LOGIN</a></li>
+                
+            </ul>
+            
+        </div>
+    </header>
+
+    
+
+        <hr color=" #FFFF00">
+
+
+        <div class="fix">
+            <img src={% static "1092758.jpg" %} alt="background" height="581px" width="10000px" >
+           <!-- <img src="1092758.jpg" alt="background" height="581px" width="10000px" >-->
+         </div>
+     
+         
+
+             
+             
+             <fieldset>
+
+                     
+                 <div class="join">
+                         
+                         
+                         
+                         
+                    <H1 style="color: aquamarine;">LOGIN AS   </H1>
+                         
+                    
+                 </div>
+                        
+                        
+                        
+                        <a href="/bookinglogin"><button class="button button1" href = "#">Booking user Login</button></a>
+                        <a href="/dispatchlogin"><button class="button button2" href = "#">Dispatch Login</button></a>
+                        <a href="/mislogin"><button class="button button3" href = "#">MIS Login</button></a>
+                        <a href="/adminlogin"><button class="button button4" href = >Admin Login</button></a>
+                    
+                    
+            </fieldset>
+                    
+                    
+                </body>
