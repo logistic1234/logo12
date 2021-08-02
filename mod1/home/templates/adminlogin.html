@@ -44,7 +44,10 @@ header{
 }
 .navbar ul{
   overflow: auto;
+  color: #24242A;
 }
+
+
 
 .navbar li a{
   padding: 3px 3px;
@@ -197,17 +200,20 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #ab30af;
+  /* background: #ab30af; */
 }
 .box{
   width: 400px;
   height: 400px;
   padding: 40px;
+  border-radius: 25px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: #191919;
+  /* background: #131111; */
+  /* box-shadow: black 10px, 10px; */
+  background-image: linear-gradient(40deg , #002D62 ,black);
   text-align: center;
 }
 .box h1{
@@ -260,7 +266,7 @@ a{
 </head>
 <body>
     <header>
-      <img class= "logo" src={% static "logo23.jpg" %}  alt="logo" height="50px" width="50px" >
+      <img class= "logo" src={% static "logo23.jpg" %}  alt="logo" height="50px" width="50px" style="backdrop-filter: blur (5px);" >
         <nav class="navbar">
             
             <ul>
@@ -298,7 +304,7 @@ a{
 
 
         <div class="fix">
-          <img src={% static "1092758.jpg" %} alt="background"height="700px" width="10000px" >
+          <img src={% static "truckblur.jpg" %} alt="background"height="595px" width="1500px"  >
             <!--<img src="1092758.jpg" alt="background" height="700px" width="10000px" >-->
          </div>
 
